@@ -32,7 +32,7 @@ public class Exam {
 		List<Integer> nList = numberList();
 		Stream<Integer> primes = nList
 			.stream()
-			.filter(n -> n%2 != 0)
+			.filter(n -> n%2 != 0);
 		int[] output = null;
 		return output;
 	}
